@@ -1,4 +1,4 @@
-import 'package:chatting_application/routes/app_route.dart';
+import 'package:chatting_application/services/routes/app_route.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
