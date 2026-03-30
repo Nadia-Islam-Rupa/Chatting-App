@@ -1,4 +1,3 @@
-import 'package:chatting_application/features/auth/presentation/pages/log_in.dart';
 import 'package:chatting_application/features/chat/presentation/chat_page/chatpage.dart';
 import 'package:chatting_application/features/chat/presentation/home/homePage.dart';
 import 'package:chatting_application/features/chat/presentation/home/personList.dart';
@@ -13,14 +12,10 @@ final appRouter = GoRouter(
   routes: [
     GoRoute(
       path: '/',
-      name: 'login',
-      builder: (context, state) => const LogInPage(),
-    ),
-    GoRoute(
-      path: '/home',
       name: 'home',
       builder: (context, state) => const HomePage(),
     ),
+
     GoRoute(
       path: '/chat-chatpage',
       name: 'chatpage',
