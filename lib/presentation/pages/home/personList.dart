@@ -1,9 +1,11 @@
-import 'package:chatting_application/features/chat/data/person_data.dart';
+// ignore_for_file: file_names
+
+import 'package:chatting_application/data/person_data.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class GroupPage extends StatelessWidget {
-  const GroupPage({super.key});
+class ChatListScreen extends StatelessWidget {
+  const ChatListScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,8 +14,7 @@ class GroupPage extends StatelessWidget {
       itemBuilder: (context, index) {
         return ListTile(
           leading: CircleAvatar(
-            backgroundColor: Colors.blue,
-            child: Icon(Icons.group_rounded, color: Colors.white, size: 30),
+            backgroundImage: AssetImage('assets/profle.jpeg'),
           ),
           title: Text(personList[index]["name"]),
           subtitle: Text('Hey, how are you?'),

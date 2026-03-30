@@ -1,6 +1,5 @@
 // ignore_for_file: file_names
 
-import 'package:chatting_application/features/group/presentation/groups.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -82,7 +81,7 @@ class HomePage extends StatelessWidget {
         body: const TabBarView(
           children: [
             ChatListScreen(),
-            GroupPage(),
+            //GroupPage(),
             Center(child: Text("Contacts Tab")),
           ],
         ),

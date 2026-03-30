@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import '../data/contact_data.dart';
+import 'contact_data.dart';
 
 class ContactPage extends StatelessWidget {
   const ContactPage({super.key});

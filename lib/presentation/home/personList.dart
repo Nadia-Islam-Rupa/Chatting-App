@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:chatting_application/features/chat/data/person_data.dart';
+import 'package:chatting_application/data/person_data.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
