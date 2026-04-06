@@ -83,6 +83,7 @@ class HomePage extends StatelessWidget {
             ChatListScreen(),
             //GroupPage(),
             Center(child: Text("Contacts Tab")),
+            Center(child: Text("Calls Tab")),
           ],
         ),
       ),
